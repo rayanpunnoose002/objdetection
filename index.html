@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="./ii.css">
+<script src="./ii.js"></script>
+<body onload="main()">
+  <canvas id="myCanvas" style="margin-left:-41vmin"></canvas>
+  <canvas id="rgbCanvas" style="margin-left:41vmin"></canvas>
+  <pre id="overlay" onclick="removeOverlay()" style="margin-left:-41vmin">
+<b>Colored object detection</b>
+
+We learned to identify an object with
+a given color. We used the euclidean
+distance in the RGB(A) color space to
+find pixels that are similar to the
+given color. We then find the average
+location of those pixels and consider
+that as the location of the object.
+
+Click the screen on the left to change 
+the color key (default is some blue).
+
+If interested in these things, study:
+- clustering: to handle more objects
+- more color spaces: to identify better
+
+		</pre>
+
+</body>
